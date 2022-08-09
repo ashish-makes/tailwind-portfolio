@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>ashish</title>
+</head>
+<body class="bg-[#06021a] font-[Poppins]">
+    <nav class="bg-[#21212e] py-3 md:flex md:items-center md:justify-between">
+        <div class="flex items-center justify-between mx-10 my-2">
+            <img src="img/hero-img.png" class="select-none h-[40px] w-[40px]">
+            <span class="-mx-[1px] text-2xl cursor-pointer text-[#793fff] px-[10px]"><b>ashish.</b></span>
+            <span class="text-3xl cursor-pointer text-[#793fff] md:hidden block"><ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon></span>
+        </div>
+        <ul class="md:flex md:items-center md:z-auto md:static bg-[#21212e] absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"> <!--z-[-1]-->
+            <li class="mx-4 my-4 md:my-0">
+                <a href="#" class="text-white hover:text-[#793fff] duration-500">Home</a>
+            </li>
+            <li class="mx-4 my-4 md:my-0">
+                <a href="#" class="text-white hover:text-[#793fff] duration-500">About</a>
+            </li>
+            <li class="mx-4 my-4 md:my-0">
+                <a href="#" class="text-white hover:text-[#793fff] duration-500">Experience</a>
+            </li>
+            <li class="mx-4 my-4 md:my-0">
+                <a href="#" class="text-white hover:text-[#793fff] duration-500">Projects</a>
+            </li>
+            <li class="mx-4 my-4 md:my-0">
+                <button class="bg-[#793fff] shadow-lg shadow-[#793fff]/30 text-white h-8 w-32 rounded-[5px]">👋 Contact</button>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <div class="px-[80px] py-12 bg-[#21212e] 2xl:py-2 xl:py-2 lg:py-2 md:py-2 sm:py-2">
+            <div class="mx-[5px] -mt-[30px] h-[250px] w-[250px] sm:h-[220px] sm:w-[220px] sm:mt-[50px] sm:mx-[320px] md:h-[250px] md:w-[250px] md:mt-[50px] md:mx-[410px] lg:h-[250px] lg:w-[250px] lg:mt-[50px] lg:mx-[700px] xl:h-[250px] xl:w-[250px] xl:mt-[50px] xl:mx-[800px] 2xl:h-[250px] 2xl:w-[250px] 2xl:mt-[50px] 2xl:mx-[900px]">
+                <img src="img/hero-img.png" class="select-none">
+            </div>
+            <div class="mt-5 sm:-mt-[200px] sm:-mx-[30px] md:mx-[10px] lg:mx-[50px] xl:mx-[220px] 2xl:mx-[250px]">
+                <span class="text-white text-3xl">👋 Hi, I'm <span class="text-[#793fff] text-3xl font-bold">Ashish</span></span>
+            </div>
+            <div class="mt-4 text-justify sm:-mx-[30px] md:mx-[10px] lg:mx-[50px] xl:mx-[220px] 2xl:mx-[250px]">
+                <span class="text-white text-1xl z-50">Well I am a Web Developer working to<br>make internet a place with modern sites.<br><span class="font-semibold">Know more about me below. ⬇️</span></span><br>
+            </div>
+            <!-- <div class="mt-4 inline-flex">
+                <div class="bg-[#793fff] h-[40px] w-[40px] mx-2 rounded-[5px]"></div>
+                <div class="bg-[#793fff] h-[40px] w-[40px] rounded-[5px]"></div>
+                <div class="bg-[#793fff] h-[40px] w-[40px] mx-2 rounded-[5px]"></div>
+            </div> -->
+            <div class="mt-4 sm:pb-[50px] sm:-mx-[30px] md:mx-[10px] lg:mx-[50px] xl:mx-[220px] 2xl:mx-[250px]">
+                <button class="bg-[#793fff] text-white h-10 w-40 rounded-[5px] shadow-lg shadow-[#793fff]/30">Download CV</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <p class="my-[50px] text-center text-3xl text-white font-extrabold">Here's More <span class="text-[#793fff]">About Me</span></p>
+        <img src="img/about-img.png" class="select-none invisible h-[0px] w-[0px] md:visible md:h-[350px] md:w-[350px] md:mx-[20px] sm:visible sm:h-[200px] sm:w-[200px] sm:mx-[40px] lg:visible lg:h-[400px] lg:w-[400px] lg:mx-[100px] xl:visible xl:h-[400px] xl:w-[400px] xl:mx-[150px] 2xl:visible 2xl:h-[500px] 2xl:w-[500px] 2xl:mx-[200px]">
+        <div class="bg-[#21212e] shadow-lg flex mx-[28px] mb-8 rounded-[10px] h-[480px] w-[350px] sm:mx-[260px] md:mx-[400px] md:w-[350px] md:-mt-[350px] sm:-mt-[210px] lg:mx-[500px] lg:w-[500px] lg:-mt-[400px] xl:mx-[600px] xl:w-[580px] xl:-mt-[400px] 2xl:mx-[700px] 2xl:w-[600px] 2xl:-mt-[500px]">
+            <div class="bg-red-600 mx-[20px] mt-6 mb-8 rounded-full h-[15px] w-[15px]"></div>
+            <div class="bg-green-600 -mx-[10px] mt-6 mb-8 rounded-full h-[15px] w-[15px]"></div>
+            <div class="bg-blue-600 mx-[20px] mt-6 mb-8 rounded-full h-[15px] w-[15px]"></div>
+            <span class="my-[80px] -mx-[70px] text-pink-500 text-1xl">const aboutMe = () => {<br>
+                <span class="mx-[30px] text-blue-500 text-1xl">const details = {
+                <br> <span class="mx-[50px] text-white text-1xl"><span class="text-yellow-500">name:</span> "Ashish";</span>
+                <br> <span class="mx-[50px] text-white text-1xl"><span class="text-yellow-500">age:</span> 18;</span>
+                <br> <span class="mx-[50px] text-white text-1xl"><span class="text-yellow-500">profession:</span> "Web Developer"</span>
+                <br> <span class="mx-[50px] text-white text-1xl"><span class="text-pink-500">TechnologiesKnown</span> = {</span>
+                <br> <span class="mx-[70px] text-white text-1xl"><span class="text-yellow-500">HTML:</span> "✅";</span>
+                <br> <span class="mx-[70px] text-white text-1xl"><span class="text-yellow-500">CSS:</span> "✅";</span>
+                <br> <span class="mx-[70px] text-white text-1xl"><span class="text-yellow-500">JavaScript:</span> "✅";</span>
+                <br> <span class="mx-[70px] text-white text-1xl"><span class="text-yellow-500">Tailwind CSS:</span> "✅";</span>
+                <br> <span class="mx-[70px] text-white text-1xl"><span class="text-yellow-500">Python:</span> "✅";</span>
+                <br> <span class="mx-[70px] text-white text-1xl"><span class="text-yellow-500">SQL:</span> "✅";</span>
+                <br> <span class="mx-[70px] text-pink-500 text-1xl">}</span>
+                <br> <span class="mx-[30px]  text-blue-500 text-1xl">}</span>
+                </span><br>
+            }</span>
+        </div>
+    </section>
+    <section>
+        <div class="bg-[#21212e] h-[960px] w-auto mt-10 mb-10 md:h-[720px] lg:h-[450px]">
+            <p class="pt-[40px] text-center text-3xl text-white font-extrabold">🤹 Checkout my <span class="text-[#793fff]">skills</span></p>
+            <div class=" bg-[#793fff] shadow-lg h-[250px] w-[300px] rounded-[10px] mx-[50px] mt-[50px] sm:mx-[180px] md:mx-[50px] xl:mx-[200px] 2xl:mx-[250px]">
+                <i class="material-icons text-white text-[70px] mx-[120px] mt-[30px]">language</i>
+                <p class="text-white text-2xl text-center mb-4 font-semibold">Web Design</p>
+                <p class="text-white text-1xl text-center text-clip px-5">With the help of latest technologies, I can develop modern and beautiful websites.</p>
+            </div>
+            <div class=" bg-[#793fff] shadow-lg h-[250px] w-[300px] rounded-[10px] mx-[50px] mt-[20px] sm:mx-[180px] md:mx-[400px] md:-mt-[250px] lg:mx-[375px] xl:mx-[550px] 2xl:mx-[600px]">
+                <i class="material-icons text-white text-[70px] mx-[120px] mt-[30px]">palette</i>
+                <p class="text-white text-2xl text-center mb-4 font-semibold">Graphic Design</p>
+                <p class="text-white text-1xl text-center text-clip px-5">I can create graphics for your social media and website.</p>
+            </div>
+            <div class=" bg-[#793fff] shadow-lg h-[250px] w-[300px] rounded-[10px] mx-[50px] mt-[20px] sm:mx-[180px] md:mx-[250px] md:mt-[40px] lg:mx-[700px] lg:-mt-[250px] xl:mx-[900px] 2xl:mx-[950px]">
+                <i class="material-icons text-white text-[70px] mx-[120px] mt-[30px]">lightbulb</i>
+                <p class="text-white text-2xl text-center mb-4 font-semibold">Smart Work</p>
+                <p class="text-white text-1xl text-center text-clip px-5">Working hard makes things comples, therefore I tries to work smart.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <p class="my-[50px] text-center text-3xl text-white font-extrabold">📌 My <span class="text-[#793fff]">Experience</span></p>
+        <p class="text-white text-center -mt-[20px] mb-[60px] px-[5px]">This timeline summarizes my learnings till the date.</p>
+        <div class="bg-white mx-[80px] mb-[50px] h-[1050px] w-[2px] items-center justify-center rounded-[50px] sm:mx-[250px] lg:mx-[450px] xl:ml-[650px] 2xl:ml-[750px]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full -mx-[15px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+              </svg>
+            <div class="bg-[#21212e] inline-block h-[180px] w-[260px] mx-[30px] mt-[10px] rounded-[10px]">
+                <div class="bg-[#793fff] h-[25px] w-[100px] rounded-full mx-[20px] mt-[15px]"><p class="text-[15px] text-white text-center py-[2px]">2003-2021</p></div>
+                <div class="mx-[30px] mt-[20px]"><p class="text-white text-center mt-[2px]">Completed my schooling in this span of time from India with Compluter Science.</p></div>
+            </div>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full -mx-[2px] -mt-[280px] lg:visible sm:invisible md:invisible lg:w-[30px] lg:h-[30px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+              </svg> -->
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[65px] -mt-[845px] sm:mx-[235px] lg:mx-[435px] xl:mx-[635px] 2xl:ml-[735px]" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+          </svg>
+        <div class="bg-[#21212e] inline-block h-[180px] w-[260px] ml-[110px] mt-[10px] rounded-[10px] sm:ml-[280px] lg:ml-[160px] xl:ml-[360px] 2xl:ml-[460px]">
+            <div class="bg-[#793fff] h-[25px] w-[100px] rounded-full mx-[20px] mt-[15px]"><p class="text-[15px] text-white text-center py-[2px]">2020-2021</p></div>
+            <div class="mx-[30px] mt-[20px]"><p class="text-white text-center mt-[2px]">Mastered HTML, CSS and JavaScript by developing and deploying websites.</p></div>   
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[65px] mt-[25px] sm:mx-[235px] lg:mx-[435px] xl:mx-[635px] 2xl:ml-[735px]" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+          </svg>
+        <div class="bg-[#21212e] inline-block h-[180px] w-[260px] ml-[110px] mt-[10px] rounded-[10px] sm:ml-[280px] lg:ml-[480px] xl:ml-[680px] 2xl:ml-[780px]">
+            <div class="bg-[#793fff] h-[25px] w-[100px] rounded-full mx-[20px] mt-[15px]"><p class="text-[15px] text-white text-center py-[2px]">2021-2022</p></div>
+            <div class="mx-[30px] mt-[20px]"><p class="text-white text-center mt-[2px]">Learned various CSS and JavaScript frameworks such as Tailwind CSS and React.</p></div>   
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[65px] mt-[25px] sm:mx-[235px] lg:mx-[435px] xl:mx-[635px] 2xl:ml-[735px]" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+          </svg>
+          <div class="bg-[#21212e] inline-block h-[180px] w-[260px] ml-[110px] mt-[10px] rounded-[10px] sm:ml-[280px] lg:ml-[160px] xl:ml-[360px] 2xl:ml-[460px]">
+            <div class="bg-[#793fff] h-[25px] w-[100px] rounded-full mx-[20px] mt-[15px]"><p class="text-[15px] text-white text-center py-[2px]">2021-2022</p></div>
+            <div class="mx-[30px] mt-[20px]"><p class="text-white text-center -mt-[7px]">Worked as a freelancer and helped many business to create modern websites for their brands.</p></div>   
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[65px] mt-[25px] sm:mx-[235px] lg:mx-[435px] xl:mx-[635px] 2xl:ml-[735px]" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+          </svg>
+          <div class="bg-[#21212e] inline-block h-[180px] w-[260px] ml-[110px] mt-[10px] rounded-[10px] sm:ml-[280px] lg:ml-[480px] lg:mb-[40px] xl:ml-[680px] 2xl:ml-[780px]">
+            <div class="bg-[#793fff] h-[25px] w-[100px] rounded-full mx-[20px] mt-[15px]"><p class="text-[15px] text-white text-center py-[2px]">Currently</p>
+                <div class="bg-[#793fff] h-[10px] w-[10px] rounded-full mx-[200px] -mt-[20px] animate-ping"></div>
+                <div class="bg-[#793fff] h-[10px] w-[10px] rounded-full mx-[200px] -mt-[10px]"></div>
+            </div>
+            <div class="mx-[30px] mt-[20px]"><p class="text-white text-center -mt-[7px]">Learning new technologies to improve my skills as well as working with a few startups alongside.</p></div>
+        </div>
+    </section>
+    <section>
+        <div class="bg-[#21212e] h-[1400px] mb-[40px] w-auto md:h-[760px] lg:h-[540px]">
+            <p class=" mt-[50px] pt-[30px] text-center text-3xl text-[#793fff] font-extrabold md:mb-[40px]">🚀 Projects <span class="text-white">Done</span></p>
+            <div class="xl:ml-[120px] 2xl:ml-[180px]">
+                <img src="img/password-generator.png" class="select-none h-[180px] w-[320px] mx-[45px] mt-[30px] rounded-[10px] sm:ml-[170px] md:ml-[60px] lg:ml-[35px] xl:ml-[65px]">
+                <div class="group">
+                    <div class="absolute bg-[#793fff] cursor-pointer bg-opacity-0 h-[150px] w-[280px] mx-[65px] -mt-[165px] group-hover:bg-opacity-10 group-hover:blur-xl duration-100 sm:ml-[190px] md:ml-[75px] xl:ml-[85px]"></div>
+                    <p class="absolute text-[#06021a] opacity-0 text-[20px] font-extrabold ml-[100px] -mt-[100px] group-hover:opacity-100 duration-150 sm:ml-[220px] md:ml-[120px] lg:ml-[100px] xl:ml-[120px]">Password Generator</p>
+                </div>
+                <a href="https://wowpassgen.netlify.app/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-eye-fill absolute text-white bg-[#793fff] p-[4px] rounded-full -mt-[35px] mx-[290px] sm:ml-[420px] md:ml-[300px] lg:ml-[280px] xl:ml-[300px]" viewBox="0 0 16 16">
+                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                  </svg></a>
+                  <a href="https://github.com/ashish-makes/passgen" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-browser-chrome absolute text-white bg-[#793fff] p-[4px] rounded-full -mt-[35px] mx-[320px] sm:ml-[450px] md:ml-[330px] lg:ml-[330px]" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                  </svg></a>
+            </div>
+            <div class="xl:ml-[120px] 2xl:ml-[180px]">
+                <img src="img/blurry-gradient.png" class="absoluteselect-none h-[180px] w-[320px] mx-[45px] mt-[30px] rounded-[10px] sm:ml-[170px] md:ml-[400px] md:-mt-[180px] lg:ml-[380px] xl:ml-[410px]">
+                <div class="group">
+                    <div class="absolute bg-[#793fff] cursor-pointer bg-opacity-0 h-[150px] w-[280px] mx-[65px] -mt-[165px] group-hover:bg-opacity-10 group-hover:blur-xl duration-100 sm:ml-[190px] md:ml-[420px] xl:ml-[430px]"></div>
+                    <p class="absolute text-[#06021a] opacity-0 text-[20px] font-extrabold ml-[130px] -mt-[100px] group-hover:opacity-100 duration-150 sm:ml-[250px] md:ml-[460px] xl:ml-[490px]">Blurry Gradient</p>
+                </div>
+                <a href="https://ashish-makes.github.io/blurry-gradient/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-eye-fill absolute text-white bg-[#793fff] p-[4px] rounded-full -mt-[35px] mx-[290px] sm:ml-[420px] md:ml-[630px] xl:ml-[650px]" viewBox="0 0 16 16">
+                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                  </svg></a>
+                  <a href="https://github.com/ashish-makes/blurry-gradient" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-browser-chrome absolute text-white bg-[#793fff] p-[4px] rounded-full -mt-[35px] mx-[320px] sm:ml-[450px] md:ml-[660px] xl:ml-[680px]" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                  </svg></a>
+            </div>
+            <div class="xl:ml-[120px] 2xl:ml-[180px]">
+                <img src="img/encode-decode.png" class="absoluteselect-none h-[180px] w-[320px] mx-[45px] mt-[30px] rounded-[10px] sm:ml-[170px] md:ml-[60px] lg:ml-[725px] lg:-mt-[180px] xl:ml-[755px]">
+                <div class="group">
+                    <div class="absolute bg-[#793fff] cursor-pointer bg-opacity-0 h-[150px] w-[280px] mx-[65px] -mt-[165px] group-hover:bg-opacity-10 group-hover:blur-xl duration-100 sm:ml-[190px] md:ml-[75px] lg:ml-[745px] xl:ml-[775px]"></div>
+                    <p class="absolute text-[#06021a] opacity-0 text-[20px] font-extrabold ml-[130px] -mt-[100px] group-hover:opacity-100 duration-150 sm:ml-[250px] md:ml-[140px] lg:ml-[805px] xl:ml-[840px]">Encode Decode</p>
+                </div>
+                <a href="https://ashish-makes.github.io/encode-decode-base64/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-eye-fill absolute text-white bg-[#793fff] p-[4px] rounded-full -mt-[35px] mx-[290px] sm:ml-[420px] md:ml-[300px] lg:ml-[965px] xl:ml-[985px]" viewBox="0 0 16 16">
+                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                  </svg></a>
+                  <a href="https://github.com/ashish-makes/encode-decode-base64/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-browser-chrome absolute text-white bg-[#793fff] p-[4px] rounded-full -mt-[35px] mx-[320px] sm:ml-[450px] md:ml-[330px] lg:ml-[995px] xl:ml-[1015px]" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                  </svg></a>
+            </div>
+            <div class="xl:ml-[120px] 2xl:ml-[180px]">
+                <img src="img/payment-gateway.png" class="absoluteselect-none h-[180px] w-[320px] mx-[45px] mt-[30px] rounded-[10px] sm:ml-[170px] md:ml-[400px] md:-mt-[180px] lg:ml-[728px] lg:mt-[25px] xl:ml-[65px]">
+                <div class="group">
+                    <div class="absolute bg-[#793fff] cursor-pointer bg-opacity-0 h-[150px] w-[280px] mx-[65px] -mt-[165px] group-hover:bg-opacity-10 group-hover:blur-xl duration-100 sm:ml-[190px] md:ml-[420px] lg:ml-[745px] xl:ml-[75px]"></div>
+                    <p class="absolute text-[#06021a] opacity-0 text-[20px] font-extrabold ml-[110px] -mt-[100px] group-hover:opacity-100 duration-150 sm:ml-[240px] md:ml-[480px] lg:ml-[800px] xl:ml-[120px]">Payment Gateway</p>
+                </div>
+                <a href="https://ashish-makes.github.io/payment/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-eye-fill absolute text-white bg-[#793fff] p-[4px] rounded-full -mt-[35px] mx-[290px] sm:ml-[420px] md:ml-[640px] lg:ml-[965px] xl:ml-[300px]" viewBox="0 0 16 16">
+                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                  </svg></a>
+                  <a href="https://github.com/ashish-makes/payment" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-browser-chrome absolute text-white bg-[#793fff] p-[4px] rounded-full -mt-[35px] mx-[320px] sm:ml-[450px] md:ml-[670px] lg:ml-[995px] xl:ml-[330px]" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                  </svg></a>
+            </div>
+            <div class="xl:ml-[120px] 2xl:ml-[180px]">
+                <img src="img/text-tools.png" class="absoluteselect-none h-[180px] w-[320px] mx-[45px] mt-[30px] rounded-[10px] sm:ml-[170px] md:ml-[60px] lg:-mt-[180px] lg:ml-[35px] xl:ml-[410px]">
+                <div class="group">
+                    <div class="absolute bg-[#793fff] cursor-pointer bg-opacity-0 h-[150px] w-[280px] mx-[65px] -mt-[165px] group-hover:bg-opacity-10 group-hover:blur-xl duration-100 sm:ml-[190px] md:ml-[75px] xl:ml-[430px]"></div>
+                    <p class="absolute text-[#06021a] opacity-0 text-[20px] font-extrabold ml-[160px] -mt-[100px] group-hover:opacity-100 duration-150 sm:ml-[280px] md:ml-[160px] xl:ml-[520px]">Text Tools</p>
+                </div>
+                <a href="https://ashish-makes.github.io/text-tools/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-eye-fill absolute text-white bg-[#793fff] p-[4px] rounded-full -mt-[35px] mx-[290px] sm:ml-[420px] md:ml-[300px] lg:ml-[280px] xl:ml-[650px]" viewBox="0 0 16 16">
+                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                  </svg></a>
+                  <a href="https://github.com/ashish-makes/text-tools" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-browser-chrome absolute text-white bg-[#793fff] p-[4px] rounded-full -mt-[35px] mx-[320px] sm:ml-[450px] md:ml-[330px] lg:ml-[310px] xl:ml-[680px]" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                  </svg></a>
+            </div>
+            <div class="xl:ml-[120px] 2xl:ml-[180px]">
+                <img src="img/word-counter.png" class="absoluteselect-none h-[180px] w-[320px] mx-[45px] mt-[30px] rounded-[10px] sm:ml-[170px] md:ml-[400px] md:-mt-[180px] lg:-mt-[180px] lg:ml-[380px] xl:ml-[755px]">
+                <div class="group">
+                    <div class="absolute bg-[#793fff] cursor-pointer bg-opacity-0 h-[150px] w-[280px] mx-[65px] -mt-[165px] group-hover:bg-opacity-10 group-hover:blur-xl duration-100 sm:ml-[190px] md:ml-[420px] xl:ml-[785px]"></div>
+                    <p class="absolute text-[#06021a] opacity-0 text-[20px] font-extrabold ml-[130px] -mt-[100px] group-hover:opacity-100 duration-150 sm:ml-[260px] md:ml-[470px] xl:ml-[840px]">Word Counter</p>
+                </div>
+                <a href="https://ashish-makes.github.io/words-counter/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-eye-fill absolute text-white bg-[#793fff] p-[4px] rounded-full -mt-[35px] mx-[290px] sm:ml-[420px] md:ml-[640px] lg:ml-[630px] xl:ml-[985px]" viewBox="0 0 16 16">
+                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                  </svg></a>
+                  <a href="https://github.com/ashish-makes/words-counter" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-browser-chrome absolute text-white bg-[#793fff] p-[4px] rounded-full -mt-[35px] mx-[320px] sm:ml-[450px] md:ml-[660px] xl:ml-[1015px]" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                  </svg></a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <p class="my-[50px] text-center text-3xl text-white font-extrabold">🍬 My <span class="text-[#793fff]">Services</span></p>
+        <div class="bg-[#21212e] h-[500px] w-[320px] mx-[45px] mb-[40px] rounded-[10px] outline-dashed outline-[#793fff] outline-[3.5px] sm:ml-[180px] md:ml-[250px] lg:ml-[20px] xl:ml-[170px] 2xl:ml-[270px]">
+            <p class="text-white text-2xl text-center font-extrabold pt-[40px]">Portfolio Website</p>
+            <img src="img/portfolio-price.png" class="select-none h-[150px] w-[150px] absolute mx-[130px] mt-[10px] left-0 right-0 sm:ml-[260px] md:ml-[330px] lg:ml-[100px] xl:ml-[260px] 2xl:ml-[360px]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[40px] mt-[180px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <p class="mx-[80px] -mt-[25px] text-white text-[16px]">Modern UI/UX</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[40px] mt-[10px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <p class="mx-[80px] -mt-[25px] text-white text-[16px]">Responsive Design</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[40px] mt-[10px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <p class="mx-[80px] -mt-[25px] text-white text-[16px]">Illustrations</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[40px] mt-[10px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <p class="mx-[80px] -mt-[25px] text-white text-[16px]">Source Code</p>
+            <button class="bg-[#793fff] text-white h-10 w-40 rounded-[5px] shadow-lg shadow-[#793fff]/30 absolute ml-[130px] mt-[30px] left-0 right-0 sm:ml-[260px] md:ml-[330px] lg:ml-[100px] xl:ml-[260px] 2xl:ml-[360px]"><a href="mailto:ashish-makes@gmail.com">Place Order</a></button>
+        </div>
+        <div class="bg-[#21212e] h-[500px] w-[320px] mx-[45px] mb-[40px] rounded-[10px] outline-dashed outline-[#793fff] outline-[3.5px] sm:ml-[180px] md:ml-[250px] lg:ml-[370px] lg:-mt-[540px] xl:ml-[525px] 2xl:ml-[625px]">
+            <p class="text-white text-2xl text-center font-extrabold pt-[40px]">Landing Page</p>
+            <img src="img/landing-price.png" class="select-none h-[150px] w-[150px] absolute mx-[130px] mt-[10px] left-0 right-0 sm:ml-[260px] md:ml-[330px] lg:ml-[450px] xl:ml-[610px] 2xl:ml-[710px]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[40px] mt-[180px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <p class="mx-[80px] -mt-[25px] text-white text-[16px]">Modern UI/UX</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[40px] mt-[10px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <p class="mx-[80px] -mt-[25px] text-white text-[16px]">Responsive Design</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[40px] mt-[10px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <p class="mx-[80px] -mt-[25px] text-white text-[16px]">Illustrations</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[40px] mt-[10px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <p class="mx-[80px] -mt-[25px] text-white text-[16px]">Source Code</p>
+            <button class="bg-[#793fff] text-white h-10 w-40 rounded-[5px] shadow-lg shadow-[#793fff]/30 absolute ml-[130px] mt-[30px] left-0 right-0 sm:ml-[260px] md:ml-[330px] lg:ml-[450px] xl:ml-[610px] 2xl:ml-[710px]"><a href="mailto:ashish-makes@gmail.com">Place Order</a></button>
+        </div>
+        <div class="bg-[#21212e] h-[500px] w-[320px] mx-[45px] mb-[40px] rounded-[10px] outline-dashed outline-[#793fff] outline-[3.5px] sm:ml-[180px] md:ml-[250px] lg:ml-[720px] lg:-mt-[540px] xl:ml-[880px] 2xl:ml-[980px]">
+            <p class="text-white text-2xl text-center font-extrabold pt-[40px]">Online Tools</p>
+            <!-- <div class="ml-[40px] bg-white w-[50px] rounded-full"><p class="text-[#793fff] mx-2">New</p></div> -->
+            <img src="img/tools-price.png" class="select-none h-[150px] w-[150px] absolute mx-[130px] mt-[10px] left-0 right-0 sm:ml-[260px] md:ml-[330px] lg:ml-[800px] xl:ml-[960px] 2xl:ml-[1060px]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[40px] mt-[180px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <p class="mx-[80px] -mt-[25px] text-white text-[16px]">Modern UI/UX</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[40px] mt-[10px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <p class="mx-[80px] -mt-[25px] text-white text-[16px]">Responsive Design</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[40px] mt-[10px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <p class="mx-[80px] -mt-[25px] text-white text-[16px]">Illustrations</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-circle-fill text-[#793fff] bg-white rounded-full mx-[40px] mt-[10px]" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <p class="mx-[80px] -mt-[25px] text-white text-[16px]">Source Code</p>
+            <button class="bg-[#793fff] text-white h-10 w-40 rounded-[5px] shadow-lg shadow-[#793fff]/30 absolute ml-[130px] mt-[30px] left-0 right-0 sm:ml-[260px] md:ml-[330px] lg:ml-[800px] xl:ml-[960px] 2xl:ml-[1060px]"><a href="mailto:ashish-makes@gmail.com">Place Order</a></button>
+        </div>
+    </section>
+    <section>
+        <div class="bg-[#21212e] h-[500px] w-auto mb-[40px]">
+            <p class="py-[30px] text-center text-3xl text-white font-extrabold">🎯 Let's <span class="text-[#793fff]">Work </span><span>together</span></p>
+            <!-- <input class="bg-[#d6c8fe] mx-[50px] h-[40px] outline-none rounded-[5px]"/> -->
+            <div class="relative mx-[60px] mb-[20px] sm:mx-[180px] md:mx-[260px] lg:ml-[380px] xl:ml-[500px] 2xl:ml-[620px]">
+                <input type="text" id="name" class="name border-2 w-[300px] pl-[10px] border-[#793fff] rounded-[5px] text-white bg-[#21212e] py-1 focus:outline-none focus:border-[#793fff] transition-colors peer" autocomplete="off" placeholder="Name">
+            </div>
+            <div class="relative mx-[60px] mb-[20px] sm:mx-[180px] md:mx-[260px] lg:ml-[380px] xl:ml-[500px] 2xl:ml-[620px]">
+              <input type="text" id="email" class="email border-2 w-[300px] pl-[10px] border-[#793fff] rounded-[5px] text-white bg-[#21212e] py-1 focus:outline-none focus:border-[#793fff] transition-colors peer" autocomplete="off" placeholder="Email">
+            </div>
+            <div class="relative mx-[60px] mb-[20px] sm:mx-[180px] md:mx-[260px] lg:ml-[380px] xl:ml-[500px] 2xl:ml-[620px]">
+                <textarea type="text" id="message" class="message border-2 w-[300px] h-[200px] pl-[10px] border-[#793fff] rounded-[5px] text-white bg-[#21212e] py-1 focus:outline-none focus:border-[#793fff] transition-colors peer resize-none" autocomplete="off" placeholder="type your message here..."></textarea>
+            </div>
+            <div class="relative mx-[60px] mb-[20px] sm:mx-[180px] md:mx-[260px] lg:ml-[380px] xl:ml-[500px] 2xl:ml-[620px]">
+                <button class="send bg-[#793fff] text-white h-10 w-32 rounded-[5px] shadow-lg shadow-[#793fff]/30">Send</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="ml-[25px] sm:ml-[180px] md:ml-[220px] lg:ml-[380px] xl:ml-[480px] 2xl:ml-[560px]">
+            <div class=" group mb-[20px] -mt-[20px] mx-[120px] px-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github text-white bg-[#21212e] rounded-full p-2 group-hover:bg-[#793fff] group-hover:text-white cursor-pointer duration-150" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+            </div>
+            <div class=" group mb-[20px] px-3 -mt-[50px] mx-[160px]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter text-white bg-[#21212e] rounded-full p-2 group-hover:bg-[#793fff] group-hover:text-white cursor-pointer duration-150" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg>
+            </div>
+            <div class="group mb-[20px] px-3 -mt-[50px] mx-[200px]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-discord text-white bg-[#21212e] rounded-full p-2 group-hover:bg-[#793fff] group-hover:text-white cursor-pointer duration-150" viewBox="0 0 16 16">
+                    <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+                  </svg>
+            </div>
+            <div class="absolute ml-[25px] m-auto left-0 right-0 sm:ml-[160px] md:mx-[200px] lg:ml-[350px] xl:ml-[500px] 2xl:ml-[580px]">
+                <p class="text-white mb-5 text-[13px] sm:text-[16px] md:text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[16px]"><i class="bi bi-c-circle"></i> 2022 All rights reserved | Designed with 💜 by Ashish</p>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+    <script src = "https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html> 
