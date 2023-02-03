@@ -32,7 +32,7 @@ Tailfolio is a modern and visually appealing personal portfolio website design p
 - Netlify
 
 ## How to Use
-To use the Web Blog UI, simply clone the repository and run the index.html file in your preferred browser.
+To use the Tailfolio, simply clone the repository and run the index.html file in your preferred browser.
 
 ## Deployment
 This project has been deployed on Netlify and is available for use by anyone.
